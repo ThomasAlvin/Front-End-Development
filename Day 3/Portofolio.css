@@ -29,7 +29,8 @@ body {
   color: green;
 }
 #profile img {
-  width: 40%;
+  padding-left: 90px;
+  width: 25%;
   padding-bottom: 40px;
 }
 #profile {
@@ -41,6 +42,7 @@ body {
   border-bottom: 3px rgb(190, 189, 189) solid;
 }
 #paragraph {
+  padding-left: 90px;
   display: flex;
   flex-direction: column;
 }
