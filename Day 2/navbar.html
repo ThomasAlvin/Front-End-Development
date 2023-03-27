@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .content {
+        display: flex;
+        justify-content: space-between;
+      }
+      .navbar {
+        justify-content: space-between;
+        display: flex;
+        padding: 10px;
+        background-color: beige;
+      }
+      .judul {
+        color: rgb(90, 245, 24);
+        font-weight: 700;
+        font-size: larger;
+        font-family: sans-serif;
+        flex-direction: column;
+        cursor: pointer;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .button {
+        border: 3px solid rgb(7, 234, 56);
+        padding-left: 3px;
+        padding-right: 3px;
+        padding: 3px;
+        font-family: sans-serif;
+        color: rgb(24, 235, 112);
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="judul">TOKO JABU</div>
+      <input style="min-width: 900px; max-height: 30px" type="input" />
+      <div class="content"></div>
+      <div>
+        <div class="button">Register</div>
+        <div class="button">Login</div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>yolo</h1>
+    <style></style>
+    <form action="" method="post">
+      <table>
+        <tr>
+          <th>nama</th>
+          <td><input type="text" name="input" id="name" /></td>
+        </tr>
+        <tr>
+          <th>password</th>
+          <td><input type="password" name="input" id="passworde" /></td>
+        </tr>
+        <tr>
+          <th>email</th>
+          <td><input type="email" name="input" id="lol" /></td>
+        </tr>
+        <tr>
+          <th>are you udin</th>
+          <td>
+            yes<input type="radio" name="radio" id="lool" /> yes<input
+              type="radio"
+              name="radio"
+              id="lrool"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>your age</th>
+          <td>
+            <input type="number" name="input" id="number" />
+          </td>
+        </tr>
+        <tr>
+          <th>alamat</th>
+          <td>
+            <textarea name="input" id="taalamat" cols="20" rows="5"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <th>ya done?</th>
+          <td colspan="2">
+            <center>
+              <input type="submit" value="submit" id="btnsubmit" />
+            </center>
+          </td>
+        </tr>
+        <tr>
+          <th>ya done?</th>
+          <td colspan="2">
+            <center>
+              <input type="button" value="ok" onclick="ok()" />
+            </center>
+          </td>
+        </tr>
+        <tr>
+          <th>agama</th>
+          <td>
+            <select name="selectpls" id="selection">
+              <option value="islam">islam</option>
+              <option value="buddhA">buddha</option>
+              <option value="kristen">hindu</option>
+              <option value="hindu">kristen</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <div>division 1</div>
+      <div>division 2</div>
+      <div>division 3</div>
+      <div style="color: rgb(251, 4, 4)">lol</div>
+      <a href="#">lol</a>
+      <!-- <style>
+        div {
+          color: aquamarine;
+        }
+      </style> -->
+      <style>
+        body {
+          background-color: rgb(238, 15, 15);
+          width: 900px;
+          height: 100px;
+        }
+      </style>
+    </form>
+
+    <script>
+      function ok() {
+        let nama = document.getElementById("passworde").value;
+        alert(nama);
+      }
+    </script>
+  </body>
+</html>
